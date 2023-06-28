@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb27289-96be-43fc-a977-fa467b7f5d3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/form-timer/timer-form/src/AppSubscribeForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-timer/timer-form/src/AppSubscribeForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-timer/timer-form/src/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-timer/timer-form/src/clock.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/footer.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/footer.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/hello.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/hello.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/AppSubscribeForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/AppSubscribeForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-hello-world/tino" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello-world/tino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-hello-world/tino/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello-world/tino/src/App.tsx" afterDir="false" />
     </list>
@@ -89,7 +91,7 @@
       <workItem from="1685708077961" duration="3410000" />
       <workItem from="1685786061414" duration="2275000" />
       <workItem from="1687374812474" duration="7000" />
-      <workItem from="1687934450652" duration="6908000" />
+      <workItem from="1687934450652" duration="11164000" />
     </task>
     <servers />
   </component>
