@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb27289-96be-43fc-a977-fa467b7f5d3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/form-timer/timer-form/src/AppSubscribeForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-timer/timer-form/src/AppSubscribeForm.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/footer.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/footer.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/hello.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/hello.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-hello-world/tino" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello-world/tino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-hello-world/tino/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello-world/tino/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Routing-app/routing-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,7 +89,7 @@
       <workItem from="1685708077961" duration="3410000" />
       <workItem from="1685786061414" duration="2275000" />
       <workItem from="1687374812474" duration="7000" />
-      <workItem from="1687934450652" duration="5624000" />
+      <workItem from="1687934450652" duration="6908000" />
     </task>
     <servers />
   </component>
