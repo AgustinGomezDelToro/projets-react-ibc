@@ -4,7 +4,7 @@ import {SyntheticEvent, useState} from "react";
 export interface AppSubscribeFormAttributes {
     userName?: string; // ? -> permet de rendre l'attribut optionnel
     password?: string;
-    secure?: boolean;
+    onValidate?: (userName: string, password: string) => void;
 }
 
 
@@ -22,8 +22,15 @@ function AppSubscribeForm(attributes: AppSubscribeFormAttributes) {
         setPassword(event.currentTarget.value); //permet de recupérer la valeur de l'input
     }
 
+    const handleSubmitForm = (event: SyntheticEvent<HTMLFormElement>) => {
+        event.preventDefault(); //permet de ne pas recharger la page
+        if (attributes.onValidate) {
+            attributes.onValidate(userName, password);
+        }
+    }
+
     return (
-        <form>
+        <form onSubmit={handleSubmitForm}>
             <div>
                 <input type={"text"} placeholder="name" onChange={handleChangeName} />
             </div>
@@ -33,7 +40,13 @@ function AppSubscribeForm(attributes: AppSubscribeFormAttributes) {
             </div>
 
             <div>
-                <p>Salut {userName}</p>
+                <button type="submit" value="valider">
+                    Valider
+                </button>
+            </div>
+
+            <div>
+                <p>Salut {userName} {password}</p>
             </div>
         </form>
     )
