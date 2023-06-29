@@ -4,6 +4,7 @@ import './clock.css';
 export interface ClockAttributes {
     startTime?: number;
     endTime?: number;
+    onClockEnd?: () => void;
 }
 
 function Clock(attributes: ClockAttributes) {
@@ -11,6 +12,9 @@ function Clock(attributes: ClockAttributes) {
 
     useEffect(() => {
         if (attributes.endTime && currentTime >= attributes.endTime) {
+            if (attributes.onClockEnd) {
+                attributes.onClockEnd();
+            }
             return;
         }
         const timer = setTimeout(() => {

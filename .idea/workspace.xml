@@ -2,11 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb27289-96be-43fc-a977-fa467b7f5d3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/hello.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-hello-world/tino/src/hello.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hello-world/tino/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-hello-world/tino/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/.idea/posts-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/app/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/app/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/app/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/posts/post.cell.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/posts/post.cell.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/posts/post.detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/components/posts/post.detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/dto/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/dto/posts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/dto/posts/post.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/services/posts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/services/posts/post.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-api/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/components/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/components/app/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-timer/timer-form/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/form-timer/timer-form/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +56,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -37,10 +76,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Applications/MAMP/htdocs/node-briatte-projets/09-mongo",
+    "last_opened_file_path": "/Applications/MAMP/htdocs/node-briatte-projets",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
@@ -50,8 +91,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/posts-api/post-api/src/services" />
       <recent name="$PROJECT_DIR$/09-mongo" />
       <recent name="$PROJECT_DIR$/03-hippo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/posts-api/post-api/src/components/app" />
+      <recent name="$PROJECT_DIR$/form-timer/timer-form/src/components/app" />
     </key>
   </component>
   <component name="RunManager">
